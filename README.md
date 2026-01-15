@@ -18,13 +18,13 @@ The scanner applies a set of configurable validation rules to detect common issu
 ```
 test_case_scanner/
 ├── app/
-│    ├── main.py # Entry point
-│    ├── scanner.py # Core scanning logic
-│    ├── core_steps.py # Step processing helpers
-│    ├── config.py # Configuration flags
-│    └── rules/ # Validation rules
+│    ├── main.py                   # Entry point
+│    ├── scanner.py                # Core scanning logic
+│    ├── core_steps.py             # Step processing helpers
+│    ├── config.py                 # Configuration flags
+│    └── rules/                    # Validation rules
 ├── samples/
-│    └── test_case_sample.csv # Example test case file
+│    └── test_case_sample.csv      # Example test case file
 ├── requirements.txt
 └── README.md
 
@@ -67,4 +67,13 @@ See requirements.txt for dependencies
 ## Notes
 ```
 This project is intended as a personal learning and portfolio tool focused on QA automation concepts and Python-based validation logic.
+It is designed with extensibility in mind, allowing new validation rules to be added with minimal effort.
+```
+
+## Future Improvements
+```
+- Add support for additional validation rules
+- Export validation results as structured JSON reports
+- Introduce a web-based UI/dashboard for visualizing scan results
+- Improve summary reporting and error grouping
 ```
