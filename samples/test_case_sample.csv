@@ -1,0 +1,5 @@
+Test Case ID,Step #,Action,Input Data,Expected Results
+TC-001,1,Open application,,App opens
+TC-001,2,Enter username,admin,Username is accepted
+,,,,
+TC-001,3,Enter password,password123,Password is accepted

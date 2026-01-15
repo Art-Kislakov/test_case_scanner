@@ -1,0 +1,25 @@
+# Virtual environment
+
+venv/
+.venv/
+.env/
+
+# IDE (IntelliJ / PyCharm)
+
+.idea/
+*.iml
+
+# Python cache files
+
+__pycache__/
+*.pyc
+*.pyo
+
+# OS files
+
+.DS_Store
+Thumbs.db
+
+# Output / generated files
+
+output/
