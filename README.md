@@ -6,7 +6,6 @@ A lightweight Python tool for validating structured QA test cases stored in CSV 
 The scanner applies a set of configurable validation rules to detect common issues in test case files, such as missing fields, incorrect step numbering, empty rows, and inconsistent expected results formatting.
 ```
 
-
 ## Features
 ```
 - CSV-based test case validation
@@ -14,7 +13,6 @@ The scanner applies a set of configurable validation rules to detect common issu
 - Clear, human-readable console output
 - Easy to extend with new validation rules
 ```
-
 
 ## Project Structure
 ```
@@ -31,23 +29,42 @@ test_case_scanner/
 └── README.md
 
 ```
+
 ## How It Works
 ```
 1. The scanner reads a CSV file containing test cases.
 2. Each row is processed and validated against enabled rules.
 3. Validation results are printed to the console as a structured report.
+
+```
+
 ## Usage
 
 ```bash
 python app/main.py
 
 ```
+## Example Output
+```
+Scanning test case file: samples/test_case_sample.csv
+
+✔ Row 1: OK
+✖ Row 3: Missing required field "Expected Result"
+✖ Row 5: Step numbering is not sequential
+✔ Row 6: OK
+
+Scan completed.
+Issues found: 2
+```
+
 ## Requirements
 ```
 Python 3.9+
 
 See requirements.txt for dependencies
-Notes
+```
 
+## Notes
+```
 This project is intended as a personal learning and portfolio tool focused on QA automation concepts and Python-based validation logic.
 ```
